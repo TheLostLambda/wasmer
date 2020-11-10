@@ -39,6 +39,9 @@ paste = "0.1"
 # Commented out for now until we can find a solution to the exported function problem
 # wasmer-wasm-c-api = { version = "1.0.0-alpha5", path = "crates/wasm-c-api" }
 
+[dev-dependencies]
+inline-c = "0.1"
+
 [features]
 default = [
     "wat",
